@@ -4,7 +4,7 @@ const Layout = ({children}) => {
     return (
         <div className="">
             
-            <NavBar className="fixed overflow-hidden"/>
+            <NavBar className=""/>
             {children}
         </div>
     )

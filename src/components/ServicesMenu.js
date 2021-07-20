@@ -10,10 +10,10 @@ import {PhoneIcon,PlayIcon} from '@heroicons/react/outline'
     return classes.filter(Boolean).join(' ')
   }
   
-  const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-  ]
+  // const callsToAction = [
+  //   { name: 'Watch Demo', href: '#', icon: PlayIcon },
+  //   { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+  // ]
 
 const ServicesMenu = ({services}) => {
     return (
@@ -67,7 +67,7 @@ const ServicesMenu = ({services}) => {
                                 </a>
                               ))}
                             </div>
-                            <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                            {/* <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                               {callsToAction.map((item) => (
                                 <div key={item.name} className="flow-root">
                                   <a
@@ -79,7 +79,7 @@ const ServicesMenu = ({services}) => {
                                   </a>
                                 </div>
                               ))}
-                            </div>
+                            </div> */}
                           </div>
                         </Popover.Panel>
                       </Transition>

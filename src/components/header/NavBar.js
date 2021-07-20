@@ -24,30 +24,30 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 
 const services = [
     {
-      name: 'Analytics',
+      name: 'Archive Modernization',
       description: 'Get a better understanding of where your traffic is coming from.',
       href: '#',
       icon: ChartBarIcon,
     },
     {
-      name: 'Engagement',
+      name: 'Dynamic Datacenters',
       description: 'Speak directly to your customers in a more meaningful way.',
       href: '#',
       icon: CursorClickIcon,
     },
-    { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
+    { name: 'Data and ML', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
     {
-      name: 'Integrations',
+      name: 'Consulting',
       description: "Connect with third-party tools that you're already using.",
       href: '#',
       icon: ViewGridIcon,
     },
-    {
-      name: 'Automations',
-      description: 'Build strategic funnels that will drive your customers to convert',
-      href: '#',
-      icon: RefreshIcon,
-    },
+    // {
+    //   name: 'Automations',
+    //   description: 'Build strategic funnels that will drive your customers to convert',
+    //   href: '#',
+    //   icon: RefreshIcon,
+    // },
   ]
 
 
@@ -71,7 +71,7 @@ const recentPosts = [
 export default function Example() {
   return (
     <>
-       <div className="border-b-2 border-gray-100">
+       <div className="border-b-2 border-gray-100 fixed w-full z-50">
        <Popover className="relative bg-white">
       {({ open }) => (
         <>

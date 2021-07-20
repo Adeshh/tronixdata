@@ -25,13 +25,13 @@ const OurServices = () => {
                   />
                   <LeftTextService
                     src={ArchiveLogo}
-                    title="Dataservice Centers"
-                    text=" A carefully created service model backed by enterprise grade first party and third party technologies. A fully managed service to take away your work-load. "
+                    title="Datacenter services "
+                    text=" Whether you run IT services on-premises or in a pulblic cloud. You always need trusted advisors. People who can work with you to meet your objectives. "
                   />
                  <RightTextService 
                    src={AnalysisLogo}
                    title="Cloud Services"
-                   text="  Just converting data and sending it to cloud does not make sense. It requires intelligence to see through it. We help making data more usable than ever."
+                   text="  Now that you have decided to move to a public cloud or you are trying to build a private cloud, every IT organization needs insights to make informed decisions."
                   />
                </div>
             </section>
