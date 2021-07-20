@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 import ArchiveLogo from '../assets/Archive.svg'
 import AnalysisLogo from '../assets/analytics.svg'
 import LeftTextService from '../components/LeftTextService'
