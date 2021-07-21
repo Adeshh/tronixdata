@@ -1,4 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
+/* This example requires Tailwind CSS v2.0+ . */
 import ServicesMenu from '../ServicesMenu'
 import Logo from '../../components/Logo'
 import Button from '../Button'
@@ -71,7 +71,7 @@ const recentPosts = [
 export default function Example() {
   return (
     <>
-       <div className="border-b-2 border-gray-100 fixed w-full z-50">
+       <div className="border-b-2 border-gray-100 fixed w-full z-40">
        <Popover className="relative bg-white">
       {({ open }) => (
         <>
